@@ -1,0 +1,1031 @@
+Doctor of Philosophy (Ph.D.) Manual
+Version 1.6 /one.sup
+Indian Institute of Technology Goa
+1Last modiﬁed on December 8,2020;Proposed by the SPGC convened on November 18,2020;Incorporated
+comments from the open faculty meeting held on October 22, 2020 and Institute Coordination Committee
+meeting held on November 25, 2020.Preamble
+Indian Institute of Technology (IIT) Goa’s vision is to become a unique institution of higher
+learning which shall oﬀer state of the art education, research, and training in science,
+technology,humanities and social science sto leave a footprint on society and environment
+by addressing global and local challenges. The presence of dynamism and the rigour in
+faculty members at IIT Goa to pursue research has led to the Ph.D.program across various
+disciplines in the institute. IIT Goa,ever since its inception in 2016 has been establishing
+modern research facilities and extensively expanding its infrastructural facilities have given a
+push for the Ph.D. program which was approved by the Senate of IIT Goa in its first meeting
+itself. The objective of the Ph.D. program is to leave that footprint as envisioned by IIT Goa.
+A Ph.D. degree is awarded as a recognition for the achievements of independent research
+and application of knowledge to the solution of technical and scientiﬁc problems. The
+academic program shall lead to the degree by meeting criteria set by the Senate,IITGoa. This
+is achieved by securing credits through course-work and research. The admission to the Ph.D.
+program is through a centralised process of the institute. Although the students are admitted
+to certain schools, IIT Goa encourages interdisciplinary research. The institute has been
+actively involved in various sponsored projects from government as well as industrial support.
+IIT Goa extends all the facilities for doing path breaking research across all ﬁelds of science,
+technology,humanities and social sciences. The student has access to all facilities with in and
+outside the school in which the student is enrolled. The institute has several Memorandum of
+Understanding(MoU)signed with various institutes and national laboratories within India
+and abroad,which allows the student to work elsewhere for part of the research. IITGoa
+invites distinguished personalities from diﬀerent ﬁelds and also organizes various events
+like workshops,symposium and conferences. These events encourage the student to engage
+in stimulating discussions which will contribute toward the irsound development. IITGoa
+also extends its support toward non academic development by providing opportunities to
+explore the ir extra-curricular interests through various clubs. Psychological and emotional
+support services are also provided for the needy students. In other words,IITGoa extends
+and tries to provide the best possible environment for excelling in the research path chosen
+by the student enrolling for the Ph.D. program.
+iiThis manual is a guiding document for the fascinating journey the student has decided to
+undertake. The rules and regulations have been laid out with least possible ambiguity. The
+manual may evolve with changing times as and when necessary. This manual is prepared
+by the Senate Postgraduate Committee (SPGC) appointed by the Senate, IIT Goa. It has
+been their best eﬀort to provide maximum liberty to students as well as faculty for a smooth
+conduct of the program.
+Currently running Ph.D. program The Senate, IIT Goa in its ﬁrst meeting held on 30
+January 2018 under the chairperson-ship of Prof. B. K. Mishra approved the Ph.D. program
+in the following disciplines.
+•Chemistry
+•Computer Science and Engineering
+•Economics
+•Electrical Engineering
+•Mathematics
+•Mechanical Engineering
+•Language and Literature
+•PhysicsAcknowledgements
+This manual is an adaptation of Ph.D. rules and regulations implemented in various eminent
+institutes in India and abroad. We thank them to make them available online.
+We acknowledge the efforts of the following faculty and staff members who spent their
+valuable time on discussion and composing the ﬁrst version of this manual.
+•Dr. Sunil Paul, Humanities and Social Sciences
+•Dr. Shiv Parsad, Mathematics and Computer Science
+•Dr. Shakthi Prasad D., Electrical Sciences
+•Dr. Santosh Kumar Das, Physical Sciences
+•Ms. Sadhana Soni, Academic Programs and Student Aﬀairs
+•Dr. E. Siva Subramaniam, Chemical and Material Sciences
+•Mr. Dileep Kumar P. S., Academic Programs and Student Aﬀairs
+•Dr. Clint P. George, Mathematics and Computer Science
+•Dr. Ashish Bhateja, Mechanical Sciences
+•Mr. Abhishek Gupta, Academic Programs and Student Aﬀairs
+We thank faculty members Drs. Arindam Das, Harpreet Singh, Milind Sohoni, Nan-
+dakumar Nambath, Neha Karanjkar, Ponnulakshmi VK, Raja Mitra, Sachin Kore, Sashidhar
+Sampathirao, Santosh Kumar, Sharad Sinha, Somenath Biswas, Sudipta Kanungo, Sujit
+Kumar Sahoo, Thaseem Thajudeen, Vaibhav Wasnik, and Y. Sudhakar for their reviews and
+suggestions on this manual.
+ivContents
+Preamble ii
+Acknowledgements iv
+1 Introduction 1
+2 Admissions 2
+2.1 Admission categories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+2.2 Eligibility for admission to the Ph.D. program . . . . . . . . . . . . . . . . 3
+3 Registration and credit requirements 4
+3.1 Credit requirements through course-work . . . . . . . . . . . . . . . . . . 6
+3.1.1 Course registration . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+3.1.2 Dropping a course . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+3.1.3 Relaxation from course credit requirements . . . . . . . . . . . . . 7
+3.1.4 Crediting NPTEL or MOOC courses . . . . . . . . . . . . . . . . . 7
+3.1.5 Research communication, ethics, and methods . . . . . . . . . . . 7
+3.2 Credits requirements through research . . . . . . . . . . . . . . . . . . . . 8
+4 Doctoral committee 10
+5 Conﬁrmation of Ph.D. registration 12
+5.1 Ph.D. comprehensive examination . . . . . . . . . . . . . . . . . . . . . . 12
+5.2 State of the Art Seminar (SOAS) . . . . . . . . . . . . . . . . . . . . . . . 12
+6 Annual progress seminar 13
+7 Submission and evaluation of synopsis and dissertation 14
+7.1 Pre-dissertation seminar . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+7.2 Submission of synopsis and dissertation . . . . . . . . . . . . . . . . . . . 15
+7.3 Evaluation of dissertation . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+v7.4 Dissertation defence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+8 Performance requirements and remedial tools 19
+8.1 Minimum CPI requirements . . . . . . . . . . . . . . . . . . . . . . . . . 19
+8.2 Failure on courses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+8.3 Grade improvement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+8.4 Academic probation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+8.5 Termination/Exit from the Ph.D. program . . . . . . . . . . . . . . . . . . 21
+9 Leave rules 23
+9.1 Personal Leave and Casual Leave . . . . . . . . . . . . . . . . . . . . . . . 23
+9.2 Maternity and Paternity leave . . . . . . . . . . . . . . . . . . . . . . . . . 23
+9.3 Medical Leave . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+9.4 Academic Leave . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+9.5 Absence without sanctioned leave . . . . . . . . . . . . . . . . . . . . . . 24
+10 Miscellaneous 25
+10.1 Change of status from Full-time to Part-time . . . . . . . . . . . . . . . . . 25
+10.2 Guidelines for research work involving human participation . . . . . . . . . 25
+Annexure I Requirements for students enrolled before AY 2020-2021 26
+Annexure II Academic performance index 28
+Annexure III Course credit calculation, grading, and types 29
+III.1 Credit calculation from contact hours . . . . . . . . . . . . . . . . . . . . . 29
+III.2 Grading system . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+III.3 Graduate seminar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+III.4 Self-learning/reading courses . . . . . . . . . . . . . . . . . . . . . . . . . 32
+Annexure IV Credit calculation and grading for NPTEL/MOOC courses 34
+Glossary 361
+Introduction
+This manual gives general guidelines,rules, and regulations for students enrolled in the IIT
+Goa Ph.D. program. A Ph.D. degree may be conferred on a student subject to the following:
+•The student has completed the minimum credit requirements as prescribed by the
+concerned Academic Units (AUs, see Table 3.1).
+•The student has carried out research under the guidance of his/her Doctoral Adviser
+(s) for at least two years starting from the date of conﬁrmation of Ph.D. registration
+(Chapter 5).
+The student may be permitted to carry out a part of his/her research work outside
+the Institute in an industry, laboratory, workshop, work site, or other research labs
+as recommended by the Doctoral Committee (DC) and approved by the concerned
+AcademicUnit(AU).If the student leaves the institute for a period of more than two
+months an approval from the Senate Postgraduate Committee (SPGC) is required
+(details Chapter 9).
+•The student’s dissertation must be recommended for awarding the Ph.D. degree by
+two external referees from reputed universities or research labs and by the Board of
+Examiners constituted for the viva voce (Chapter 7).
+This manual follows the new credit hour calculation system /one.sup(SectionIII.1)for courses
+and specifying minimum requirements of the Ph.D. program. Students who are already
+enrolled may follow the old credit hour calculation scheme for courses; however, mapping to
+the new credit system based on contact hours is available in Annexure III.
+1The credit system was adapted from the new undergraduate curriculum approved in the 3rd meeting of the
+Senate held on June 10, 2019, at IIT Goa
+12
+Admissions
+2.1 Admission categories
+Students are admitted to the Ph.D. program through an institute selection process under any
+one of the following categories:
+Full-Time or Regular Ph.D. student
+•Teaching Assistantship (TA): Students get fellowship from the institute as per the
+guidelines by the Ministry of Education
+•TA through Project(TAP):Students get fellowship from the research project and partial
+support from the institute
+•Govt./ Semi Govt. Fellowship Awards such as QIP, CSIR-JRF, UGC-JRF, DAE,
+DST-INSPIRE, DBT, NBHM, etc.
+•Sponsored: A student in this category is sponsored by a R&D organization, academic
+institution, government organization, or industry for doing research in the institute on
+a full-time basis. The institute does not provide any assistantship/fellowship to such a
+student.
+•Self-ﬁnanced: A student in this category works full-time or part-time towards the Ph.D.
+program. The institute does not provide any assistantship/fellowship to such a student.
+Part-Time Ph.D. student A student in this category is a professionally employed person
+(including IIT Goa staﬀ), who pursues the Ph.D. program while continuing the duties of the
+employment. The institute does not provide any assistance/fellowship to such a student.
+•Permanent employees from state or central government universities, colleges, or
+research institutes and labs
+•External: This category refers to a student employed in an R&D organization/academic
+institution/industry having adequate research facilities. The research work leading to
+22.2. Eligibility for admission to the Ph.D. program 3
+the Ph.D. degree may be carried out largely in the parent organization of the candidate
+under a Local Supervisor from the organization but with the overall guidance provided
+by a faculty member(InstituteSupervisor)of the AU in which the student is registered.
+•Self-sponsored
+•Permanent staﬀ of IIT Goa
+2.2 Eligibility for admission to the Ph.D. program
+Candidates have to fulﬁll the requirements set by the institute. These are: At least First
+Divisionor equivalent in M.A./ M.Sc./ B.Tech./ B.E./ MCA/ M.Tech./ M. Phil. or equivalent
+degree in appropriate branches. Individual Academic Units (AUs) may use higher cut off
+levels and/or other appropriate discipline-wise criteria for shortlisting if required. Candidates
+belonging to reserved categories are eligible for relaxations,as per norms,in the selection
+criteria.3
+Registration and credit requirements
+•AllPh.D.students should submit their(original)qualifying degree/diploma certiﬁcates
+(QDC) within one year after joining the institute or before the conﬁrmation of
+the Ph.D. registration, whichever is earlier. However, students must submit their
+provisional degree/ degree completion certiﬁcate (if no QDC available) along with
+the degree/diploma transcripts at the time of the admission to the Ph.D.program. In
+this case,the student is admitted to the institute provisionally and fellowship will be
+withheld until the student’s admission is conﬁrmed. The provisional admission will be
+cancelled if QDC is not produced within the stipulated time mentioned above.
+–Students who are unable to submit their QDCs to Academic Section within the
+due date should apply for extension along with an undertaking stating the new
+date for submission, giving proper reasons.
+–Students would be allowed to appear in the examination even if they do not submit
+their QDCs until the commencement of the end semester examination. However,
+the results of such students shall be withheld until the required documents are
+produced.
+–Students who do not fulﬁll the admission requirements (candidates who are
+awaiting results of qualifying exams) as prescribed by the institute, who have
+been provisionally selected must submit the provisional certiﬁcates within six
+months of joining otherwise their admission will be cancelled.
+–Requirements for respective funding agencies will be applicable to student
+scholarships
+•On joining the Institute every student is assigned to a Faculty Advisor (FA) by the AU
+in which the student is admitted. The student must plan his/her academic program in
+consultation with the FA.The student should also identify a Doctoral Adviser(DA)
+and inform the Academic Oﬃce before the stipulated time (details in Chapter 4).
+•All enrolled students must register for courses or research at the beginning of subsequent
+semesters through the institute registration program in consultation with their FA/DAs.
+4Registration and credit requirements 5
+This registration at the beginning of each semester is mandatory for all students,and
+they must register on the prescribed dates announced from time to time.
+•A student is required to register for a minimum of 12 credits every semester . If the
+core and elective courses taken by the student in a given semester are less than 12
+credits, the remaining may be taken as research credits (Section 3.2).
+•If a student does not register for two consecutive regular semesters , the admission
+will be cancelled Suo moto (on its own motion).
+•Students must complete the minimum credit requirements through courses and research
+as described inTable3.1. Ph.D.students who have been registered for five or more
+years in the Ph.D. program are required to submit an application, for extension of
+Ph.D. registration to the subsequent year in the Ph.D. program. This application must
+be submitted on or before the last date for completing the APS for the year prior to
+the year for which extension of Ph.D.registration is required. The financial support
+provided to the student will follow the respective rules in place by the funding agency
+and/or the institute.
+•Students are allowed to register for a maximum of two audit courses per semester,with
+the consent of their FA/DA.
+•A student is not permitted to re-register for a course, which the student has undergone
+and in which the student has secured an Audit or a Passing Grade (unless it is a course
+replacement, details Section 8.3).
+Qualifying degreeMinimum
+credits through
+coursework †Minimum
+credits through
+research †Minimum
+credits for
+graduationMinimum
+duration to
+graduate ⋆Maximum
+duration to
+graduate ⋆
+Group A
+B.Tech., B.E. or
+equivalent 4-year
+bachelor’s degree24 54 78 3.5 years 7 years
+Group B
+M.Sc., M.A. or
+equivalent18 54 72 3 years 6 years
+Group C
+M.Tech., M.E., or
+M.Phil. or equiva-
+lent9 54 63 2.5 years 6 years
+Table 3.1: Minimum credit requirements and expected duration for a student enrolled in the
+Ph.D. program from various qualifying degree. ⋆from the date of joining. †A student is
+allowed to complete extra credit courses, if necessary, as recommended by the student’s DA
+(s), DC, or AU.3.1. Credit requirements through course-work 6
+3.1 Credit requirements through course-work
+Students enrolled in a Ph.D. program must acquire the prescribed minimum credits through
+coursework (see Table 3.1), which shall be completed:
+•within one semester from the date of joining by students under Group C (Table 3.1)
+•within the ﬁrst two semesters from the date of joining by students under Group A
+and B (Table 3.1)
+However, the duration could be extended with permission from SPGC.
+3.1.1 Course registration
+•Ph.D. students, after payment of prescribed semester fees, should complete their
+registration in consultation with and approval of the FA/DA(s).
+•Ph.D. students, in consultation with their FA/DA(s), can carry out course adjustments
+within the time limit provided in the Academic Calendar.
+•The Academic Office shall inform the student’sFA/DA(s)of any discrepancy in the
+student’s registration. However, students should ensure on their own that they comply
+with the credit requirements listed under the rules prescribed above.
+•Ph.D.students who are unable to commence their course program during the semester in
+which they have been admitted(due to unavoidable circumstances)maybe permitted to
+commence their coursework in the following semester. This is a ONE-time possibility
+and must be approved by the SPGC and the Chair, Senate.
+3.1.2 Dropping a course
+A Ph.D. student may drop courses for which the student may have registered, if the academic
+load for the given semester is found to be too heavy, in consultation with the student’s
+FA/DA(s), subject to the following
+•Students must fulﬁll the minimum course credit requirements per semester and ensure
+that the credits requirements laid down in Table 3.1 are not violated.
+•The last date for course drop will be in the Academic Calendar
+•Dropped courses will appear in the student’s transcript with the respective letter grade
+(i.e. W). Withdrawn grade W will not count towards CPI.3.1. Credit requirements through course-work 7
+3.1.3 Relaxation from course credit requirements
+Normally, all students enrolling for Ph.D. programs have to undergo coursework in order to
+complete the credit requirements as mentioned in Table 1. However, relaxation in the course
+credit requirements may be provided on a case to case basis, subject to the recommendation
+of SPGC and the discretion of the Senate.
+3.1.4 Crediting NPTEL or MOOC courses
+Ph.D. students are permitted to credit courses from NPTEL or MOOC under special
+circumstances after the approval from FA/DA(s) and AU.
+•Only PG level courses will be considered for course credit requirements.
+•The number of credits acquired through the MOOC courses should not exceed 40%
+(Individual AUs can lower this limit if needed )of the total course credit requirements
+as speciﬁed in Table 3.1 /one.sup.
+•Students must obtain prior approval from their FA/DA(s)and the MOOC or NPTEL
+cell to register such courses with proper reasoning.
+•Students must follow the institute NPTEL cell (and academic oﬃce) deadlines and
+guidelines for course registration, adjustments, drop, completion, and course credits.
+•For credit calculation and grading of NPTEL/MOOC course, see Annexure IV.
+3.1.5 Research communication, ethics, and methods
+•This course is a compulsory course for all Ph.D. students.
+•This course carries 3 credits. It is graded as Pass/Non-Pass. No grade points are
+allocated for the calculation of the CPI.This course is not counted for the minimum
+course credit requirements mentioned in Table 3.1.
+•Students are required to complete this course prior to the conﬁrmation of Ph.D.
+registration (Section 5)
+•Exemption for doing this course may be given to those students who have completed
+such equivalent course(s) at the graduate level
+–from an IIT, IISER, other reputed institutes/universities in India or abroad, and
+–must have completed such course(s) within ﬁve years before joining the institute
+1This limit is applicable for students enrolled in AY 2019 onwards3.2. Credits requirements through research 8
+3.2 Credits requirements through research
+Ph.D.students are required to acquire certain minimum credits through research for graduation
+(see Table 3.1) via research courses.
+•Doctoral Research : A student is allowed to register for doctoral research credits only
+after meeting the requirements of Ph.D. registration. One doctoral research unit is
+equal to 12 credits /two.sup, subdivided into 4 sub-units of 3 credits each. The grading will be
+done by the DA(orco-advisor,if the doctoral advisor is not available due to any reason)
+by the beginning of the next regular semester as deﬁned by the institute. However, the
+grades of the semesters preceding the APS should be submitted before the APS.The
+grades of the two semesters preceding APS will be considered ﬁnal only after the APS
+(i.e. it is a provisional grade). If there is no communication received by the academic
+section regarding the grades after the APS, they will be considered ﬁnal.
+•The grading for research credits shall be diﬀerent from those of regular 10 point
+grading scheme of IIT Goa. These grades shall not be counted towards the calculation
+of CPI/SPI (Table III.4).
+•For every 3 credits,a grade of S(satisfactory)or U(unsatisfactory)may be given. 3
+credits may be equivalent to,but not limited to,8-10 hours of work per week. Although,
+U grade may be counted towards the credit hours, but will not be considered for
+evaluating the research credits earned during the Ph.D.program. Only S grades will
+be counted towards the required research credits.
+•The 12 doctoral research credits shall be graded in four sub-units as SSSS, SSSU,
+SSUU,SUUU,UUUU.When a student registers with lower credits,the appropriate
+grading may be done. For example,if a student registers of 6 credits,the grades may be
+SS, SU or UU. Similarly, if a student registers for 3 credits, the grade shall be S or U.
+•During doctoral research a student must secure a minimum of four S in any two
+consecutive semesters. If a student fails to secure minimum research credits in any two
+consecutive semesters, the case should be referred to SPGC through DC.
+•For completion of the Ph.D. program, a student is required to secure a minimum of
+54credits(i.e. 18S)through research. However,this is not an upper cap and merely
+securing 18 S will not make a student entitled to submit a dissertation. The dissertation
+submission shall be subject to the conditions mentioned in Chapter 7.
+2Overloading of research credits may be considered under the recommendations of DPGC/SPGC on a
+case-by-case basis.3.2. Credits requirements through research 9
+•The credits earned through research /three.sup will be a guiding principle for academic
+termination/probation/exit degree. Such decisions shall be on the discretion of the Senate,
+subject to the recommendations of DC and SPGC.
+•The grades allotted in the two semesters preceding APS should be presented to the DC.
+If the grades awarded are not commensurate with the performance in the APS,then
+the grades maybe revised accordingly as per the recommendations of the DC,which
+should be reported to the SPGC for further action.
+Graduate Research A Ph.D. student is also permitted to register for graduate research
+credits until the student meets the requirements of Ph.D.registration. The student’s DA(s)
+or an IIT Goa faculty may guide such as a course. The student may register for 3, 6, 9, or
+12 credits in a given semester for this course. The evaluation for this course is same as the
+Doctoral Research course. A maximum of 6 credits may be considered towards the minimum
+research credit requirements for the Ph.D. program.
+3 Students are allowed to take theory courses approved by DA(s)after the Ph.D.registration,which will be
+counted as S,if the students acquires them in imum required grade(Section8.1)in such courses(considering
+credit hour mapping). This is solely for satisfying them in imum requirements for an academic year and/or the
+Ph.D. program.4
+Doctoral committee
+Doctoral Adviser (DA) For students under
+•Group B and Group C (Table 3.1), the process of DA allocation should be completed
+within the ﬁrst three months of their joining the institute,
+•Group A (Table 3.1), the process of DA allocation should be completed within one
+year of their joining the institute,
+as per the policies laid down by the AU.
+Doctoral Committee (DC) The DA(s) in consultation with the student, shall form the
+DoctoralCommittee(DC)well be for e the comprehensive examination of the student(Section
+5.1). The committee (typically consists of five members) shall comprise the following
+•The doctoral advisor(s)
+•Two-three faculty members from the students’ AU
+•One faculty member(outside the student’s AU)from the institute who is conversant
+with the subject
+•Additional members if needed
+This committee shall be chaired by any other member other than the DA. The DA is the
+convener of this committee. DCs will be approved by the respective AU’s Postgraduate
+Committee (once it is in place) and forwarded to the Dean (Academic Programs)’s oﬃce.
+The doctoral committee has to be approved by SPGC. DC’s roles include but not limited to
+•Checks whether a Ph.D.student is in good standing in terms of coursework and research
+throughout the program
+•Sets additional research and publication requirements (additional to what is speciﬁed
+here in this Ph.D. manual)
+10Doctoral committee 11
+Change of DA (s) If a situation arises where a student requests for changing the DA or a
+faculty makes a request to relieve the student and another faculty of the institute agrees to
+supervise the student, then the student may be transferred with the approval of the Chair,
+Senate.
+•Under these circumstances the DC may be reformed.
+•If the area of research requires modiﬁcation due to this change, the student’s entire
+course work requirement shall be examined by the DC. The conﬁrmation of the Ph.D.
+registration may be revised, if found necessary.
+•In case no faculty member is willing to take the student,then the student will have to
+exit (Section 8.5) or leave the Ph.D. program.5
+Conﬁrmation of Ph.D. registration
+The conﬁrmation of Ph.D. registration will be given to a student only after the successful
+completion of the comprehensive examination (Section 5.1) and minimum course credit
+requirements (e.g. see Section 5.1, Table 3.1) .
+5.1 Ph.D. comprehensive examination
+Ph.D. Comprehensive Examination is mandatory for every student to complete the Ph.D.
+registration. This exam typically evaluates a student’s preparedness to conduct doctoral
+research. The should be successfully completed within six months after the completion of
+minimum course credit and CPI requirements.
+DC of the student will manage the exam. The mode of Comprehensive Examination
+(oral,written,or both)as well as the modusoperandi is decided by the student’s AU and is
+intimated to the students. Students will be informed at least one month prior to the date of
+examination.
+A student failing in the exam in the ﬁrst attempt may be given additional chances.
+However, students must successfully complete the exam within the stipulated time frame. If
+a student fails to do so,the student will be exited/terminated from the Ph.D.program. DC
+will submit the report of the examination(s) to the Academic Oﬃce within two weeks of
+conducting the examination(s).
+5.2 State of the Art Seminar (SOAS)
+SOAS may bean additional requirement for the Ph.D.program set by the respective AU.If
+the AU decides to make SOAS mandatory, it should be completed within six months of the
+successful completion of the ComprehensiveExamination. SOAS will be conducted under
+the guidance of DC.If the first SOAS is not satisfactory,the student is required to present
+another SOAS within a month (or as prescribed by the DC).
+126
+Annual progress seminar
+Every student enrolled for the Ph.D.program,including part-time Ph.D.students,must appear
+forAnnualProgressSeminar(APS),after completing the Comprehensive Examination. APS
+is open to all in the student’s school or program. Typically, a student gets a minimum of six
+months after completing the comprehensive examination to present APS.
+•The students enrolled in July will present their APS every July and students enrolled in
+January semester will present their APS in January.
+•The rules described here are also applicable to students who are supported by external
+funding agencies. The APS date of such students may be ﬁxed by considering
+requirements of the funding agencies.
+•APS may also be required for enhancement (and/or continuation) of any assistantship
+from the institute.
+•Incase,if the student is not able to present APS according to the schedule,an application
+for extension must be made at least 15 days before the due date of presentation to the
+academic oﬃce. Such requests will be considered case to case basis.
+The SOAS may replace the first APS ,if SOAS is made as an additional requirement by
+an AU.The student shall be evaluated for the quality and quantity of the research. In addition
+to the seminar,the student shall also submit a report to the DC at least ten days prior to the
+APS. The APS will be reviewed by the doctoral committee. The DC shall submit a report to
+the head/coordinator of the AU. The APS report will then be forwarded to the Academic
+Oﬃce within a week from the APS date.
+If the(coursework and/or research;seeChapter3orSection3.2,for details)performance
+is found to be unsatisfactory, the student may be asked to present another seminar within
+six months. If two consecutive APS are unsatisfactory,the student may be terminated with
+or without a lower degree (details in Section 8.5). The decision in such incidents will be
+decided on a case to case basis.
+An additional member from other institutes may be invited for evaluation if mandated by
+the funding agency.
+137
+Submission and evaluation of synopsis and dissertation
+7.1 Pre-dissertation seminar
+A Ph.D. candidate is required to present his/her research work before the submission of
+synopsis. This seminar is open to all IIT Goa. The procedure is the following.
+•The student must submit a report to the student’s DC at least seven days before the day
+of the pre-dissertation seminar.
+•A positive report from the DC will make the candidate eligible to submit the synopsis
+to the DPGC/SPGC.The synopsis—an extended summary of the dissertation /one.sup—should
+be submitted within three months of the pre-dissertation seminar to the DPGC/SPGC.
+After the DPGC/SPGC has approved the synopsis,the candidate will have to submit
+the dissertation, within a month of receipt of the DPGC/SPGC report.
+•After the approval of the synopsis,the student’s DA(s)in consultation with DC will
+submit a conﬁdential list of eight potential external examiners
+–Guidelines to prepare the list of examiners are set by the institute in consultation
+with SPGC. For example, examiners should be at the level of Assistant Professor
+(or equivalent) or above, half of the examiners should be international examiners,
+etc.
+–The list of examiners should be recommended by the AU/DPGC and SPGC, and
+ﬁnally approved by the Chair, Senate. The Chair, Senate may also decide the
+order in which the examiners are contacted by the Academic Oﬃce.
+•On unsatisfactory performance in the pre-dissertation seminar, a candidate may be
+asked to give another seminar within six months of the ﬁrst seminar.
+•If the synopsis and dissertation are not submitted within the stipulated period mentioned
+above, the Ph.D. student will be asked to present the pre-dissertation seminar again.
+1This will be sent to potential external referees along with the request to review a dissertation.
+147.2. Submission of synopsis and dissertation 15
+7.2 Submission of synopsis and dissertation
+The dissertation and synopsis in the prescribed format are to be submitted to the Academic
+Office along with the following certificates for submission.
+•Approval from the DC and DPGC for submission of the dissertation.
+•Certiﬁcate from the Ph.D. student and DA (s) conﬁrming that
+–there is a prima facie case for consideration of the dissertation
+–the dissertation does not contain any work which has been previously submitted
+for the award of any degree except to the extent of collaboration,if any,which
+may then be specified.
+•Certiﬁcate of authorization from the DA (s) for submission of the dissertation.
+•Undertaking/Report of the plagiarism check
+•The Academic Oﬃce will check the prescribed course credits are completed (Chapter
+3) by the student.
+7.3 Evaluation of dissertation
+•Two examiners will evaluate the dissertation.
+•The Academic Office may communicate to external examiners,from the list of approved
+examiners suggested by DC, for evaluation of dissertation within one week of the
+approval of the synopsis. The synopsis will be sent to the examiners.
+•There is a need to maintain the conﬁdentiality of proprietary information /two.sup.
+•Examiners should inform (the Academic Oﬃce) the acceptance to evaluate the
+dissertation within ﬁfteen days of communication.
+–If no reply is received, a reminder may be sent on the sixteenth day.
+–If no reply is received within one week, then the Academic Oﬃce will approach
+other examiners.
+•In the event all the examiners suggested by DC refuse to review the dissertation (or
+insufficient number of evaluators as mentioned above),then the DC may suggest a new
+list of examiners in consultation with DPGC/SPGC. It has to be then approved by the
+Chair, Senate.
+2It will be clearly mentioned in the cover letter.7.3. Evaluation of dissertation 16
+•Names of the referees/examiners will be disclosed to the DA after the reports are
+received. The referees’ names will be anonymous to the student until the reports are
+received.
+•On positive reports by the two referees(see the next subsection for details),thePh.D.
+defence may be held.
+1.If all the referees recommend acceptance of the dissertation as it is, or with
+clariﬁcations of minor points the defence can be held.
+2.If any of the referees recommend minor modiﬁcations in the dissertation, the
+defence can be held only after the internal examiner certiﬁes that the changes
+have been carried out.
+3.If at least one of the referees recommend major revisions in the dissertation, the
+revised dissertation should be resubmitted within six months after incorporating
+the revisions to the satisfaction of the DC. The revised dissertation must be sent
+for further reviews to all examiners who have examined the dissertation (and
+follow Steps 1–5).
+4.If any referee recommend rejection of the dissertation, an opinion of the third
+examiner may be sought,and defence may be held upon positive recommendation
+of the third examiner.
+5.If all the referees recommend rejection of the dissertation, the dissertation in its
+current form is rejected. Under such circumstances, the candidate is required to
+carry out necessary changes and do additional work,if needed. The candidate
+shall be allowed to submit the dissertation only after one year of receipt of the
+reports. This period shall not exceed two years from the date of intimation by the
+academic section. The routine process of dissertation evaluation may be carried
+out as for dissertation submission.
+Referees’ evaluation reports on Ph.D. dissertation
+The examiners should send the reports addressed to the Dean(AcademicPrograms). After
+receiving the report from an examiner,DPGC/SPGC will classify the examiner’s report in
+one of the following categories. /three.sup
+Category A If the corrections reported by an examiner are related to the language,such
+as, grammar, spelling, punctuation, typographical errors, etc., the DA (s) or the internal
+examiner can use their discretion regarding incorporation of such suggestions.
+3This classiﬁcation can also be speciﬁed in the forms that we send to the referees so that the examiners can
+give their views.7.4. Dissertation defence 17
+Category B If an examiner points out minor technical mistakes, raises some queries or
+suggests modifications but does not imply that the acceptance of the dissertation is subject
+to removal of these defects to the examiner’s satisfaction,theDA(s)will communicate the
+student’s response to the above to the DPGC/SPGC, and the same will be incorporated in the
+dissertation to the satisfaction of the defence committee. In case the examiner (s) have asked
+for the corrections incorporated in the dissertation based on their suggestions, the examiner
+(s) concerned should be informed of the changes made.
+Category C If an examiner
+(i) outrightly rejects the dissertation or
+(ii) raises technical points or suggests modiﬁcations
+which must be answered/carried out to the examiner’s satisfaction before the dissertation
+is accepted, the DC (s) will communicate to the DPGC/SPGC the changes made in the
+dissertation, if any, in response to the examiner’s comments along with an explanatory note
+which will be sent to the examiner /four.supwith a request to respond within six weeks . If the
+examiner’s response is not received within this period, reminders will be sent and if no reply
+is received within additional two weeks time, other referees will be contacted from the list of
+examiners, if needed.
+7.4 Dissertation defence
+Constitution of the defence committee The committee shall comprise
+•the Chair, who is a faculty member from a diﬀerent AU and not part of the DC of the
+candidate, appointed by the Chair, Senate.
+•an internal examiner (may be a member of DC other than DA (s))
+•one external examiner (usually the one who has evaluated the dissertation)
+•the student’s DA (s)
+The defence committee shall be constituted by the Chair,Senate on recommendation from
+the SPGC.
+4 Only if the examiner wish to see the changes. Referee in CategoryC(i)may opt not to review the dissertation
+again. The forms to be send to collect referee feedback will clearly specify these implementation aspects.7.4. Dissertation defence 18
+Ph.D.defence The defence committee shall decide upon a suitable date and time for the
+defence, which should be announced suitably at least one week before. Students will defend
+their work at an open(it’s open to the institute faculty and students) viva voce examination
+conducted by the defence committee. The defence may be held in online mode as well, if in
+person meeting is not possible.
+The defence committee will submit its report on the viva voce examination in the
+prescribed format to the SPGC.Incase of unsatisfactory performance of the student in the
+defence, the defence should be held again with the approval from the Chair, Senate.
+Defence report The student will submit the ﬁnal dissertation copy in electronic format,
+after duly incorporating the suggestions/corrections from the defence committee and external
+examiners, to the student’s DC (s), within one month from the date of defence. This ﬁle
+should include the signed copy of the approval sheet.8
+Performance requirements and remedial tools
+Students are expected to produce high-quality research and exhibit superior academic
+performance. This section only provides minimum performance requirements and remedial
+tools to improve performance.
+8.1 Minimum CPI requirements
+Students must maintain the minimum Cumulative Performance Index (CPI, see Annexure I)
+of6.5 out of 10 at the end of every semester. Individual AUs can set a high value for the
+minimum CPI requirements. If they do not maintain the minimum CPI requirements,they
+will be in Academic Probation, and the remedial measures are discussed in Section 8.4.
+Grade points less than ﬁve in any course For the evaluation of CPI, a student has to
+secure a minimum grade point of 5. Students getting less than the minimum grade point 5
+must repeat/replace the course with another, subject to meeting other requirements of the
+Ph.D. program.
+8.2 Failure on courses
+•A student is not allowed to have more than ONE Failure grade(i.e. For FF,SeeTables
+III.3 and III.4) in the student’s entire Ph.D. program. However a student has to secure
+the minimum credit requirements for a semester (Section 8.1).
+•If a student fails more than one course, the student is liable to Exit from the Ph.D.
+program (Section 8.5).
+•If a student fails in only ONE course, the student can
+–avail of a re-examination in that course at the semester end (If the instructor
+agrees) or
+–register an alternative course as per the guidelines set by the SPGC
+198.3. Grade improvement 20
+–If the student continues,the student will be in academic probation in the following
+semester unless the student secures the minimum credit and CPI requirements
+for a semester (Section 8.1).
+8.3 Grade improvement
+A student who fails to maintain the minimum CPI requirements will be allowed to repeat the
+course or replace a course for grade improvement,subject to meeting other credit requirements
+of the Ph.D. program (Section 3.1).
+•The course may be repeated if the student fails to get the minimum allowed grade for a
+graduate course.
+•The student must re-register the course that the student wishes to repeat in a subsequent
+semester if the course is oﬀered or an alternative course available.
+•The student’s FA/DC must approve this grade improvement plan before registering the
+replacements courses. The student cannot replace a course with another course that is
+already completed with the minimum allowed grade for a graduate course (e.g. ‘C’
+grade) or above.
+•The grade obtained in the re-registered course will supersede the earlier grade for
+CPI calculation and the same will be reﬂected in the semester grade card; The ﬁnal
+transcript contains all courses taken by the student.
+•A student can avail of this option only for TWO(2)courses in the enrolled program
+and only ONCE for a speciﬁc course.
+•Students must complete grade improvements within the stipulated time for the completion of the minimum credit requirements of the Ph.D. program (Section 3.1).
+8.4 Academic probation
+A student will be put on academic probation for a maximum of one semester if the student
+fails to meet the minimum CPI requirements
+•The student will be granted academic probation with immediate eﬀect if the CPI
+requirements are not met in the given semester.
+•Academic probation will be reported to the Senate, through SPGC.
+•At the end of the semester in which the academic probation is granted, the student
+must obtain a CPI greater than or equal to the minimum CPI requirements8.5. Termination/Exit from the Ph.D. program 21
+•After one semester of academic probation,if the student fails to achieve the satisfactory
+performance the student is liable to Exit from the Ph.D. program (Section 8.5)
+•Any concession or fee waiver is not applicable to Ph.D. students during the period of
+Academic Probation
+•Institute may relax TA duties of such students to enable them concentrate on their
+academic activities.
+•Students are not allowed to represent the Institute in extra curricular activities or contest
+in student body elections during the period of probation.
+8.5 Termination/Exit from the Ph.D. program
+Termination A student may be terminated from the Ph.D. program without any degree, if
+•the student concurrently registers for any academic program. This is with immediate
+effect.
+•the student takes an employment at another organization without converting the Full-
+time Ph.D. program to an appropriate Part-time Ph.D. program (Section 2). This is
+with immediate eﬀect. However, the student may be permitted to seek employment
+after completing the pre-dissertation seminar with approval from SPGC.
+•the student’s academic or research performance is poor, as described in any of the
+performance measurements above or as identiﬁed by the concerned DC or SPGC.
+•the student fails to successfully complete the comprehensive examination or qualifying
+examination (Section 5.1)
+•violation of the code of conduct of the institute
+ExitRules and regulations for the exit from the Ph.D. program as follows. Note that
+exit differs from termination in the sense that the former may facilitate in getting a lower
+degree/diploma (See Table 8.1).
+•The exit with a lower degree/diploma shall not be the right of the student. However,
+if the concerned DC and/or DPGC recognizes suﬃcient work done deserving such
+consideration,and recommends exit with a degree,SPGC may consider it and requests
+for the Chair, Senate’s approval
+•If the Chair, Senate approves awarding a lower (Exit) degree (Table 8.1) per se
+means that the student would be eligible for such a lower exit degree with immediate
+effect. The student will automatically be registered to the lower degree on approval of8.5. Termination/Exit from the Ph.D. program 22
+SPGC without any applications from the student. However,the continuation of such
+registration shall be subject to payment of fees and other necessary conditions.
+•The student may be given up to six months to complete the requirements for the award
+of a lower degree.
+•Failure to comply with all requirements for the exit degree within six (6)months of
+conversion may lead to termination from the exit degree.
+•Any ﬁnancial implications due to exit from the PhD program will be decided by
+respective funding agencies.
+•Eligibility requirements for diﬀerent exit degree/diploma. Satisfying the requirements
+alone do not guarantee any such degree.
+– Master of Science (M. S.) by research : On successful completion of course
+credit requirements (e.g. a minimum of two semesters of course work) and
+research work requirements (more than the M. Tech. thesis requirements). This
+option is typically considered when the student is a conﬁrmed Ph.D. student and
+well advanced in the program.
+– Master of Science(M.S.)by coursework : On successful completion of course
+credit requirements(equivalent to or more as specified in the M.Tech. manual;
+for example, the student may require at least three semesters of course work)
+and/or research work requirements.
+– Postgraduate Diploma (PgD): On successful completion of course credit requirements for at least two semesters .
+S/N Ph.D. discipline Exit degree/diploma⋆
+1 Computer Science and Engineering
+M.S. degree or
+Postgraduate
+Diploma2 Electrical Engineering
+3 Mechanical Engineering
+4 Mathematics
+5 Chemistry
+6 Economics, Language and Literature
+7 Physics
+Table8.1: Possible exit degree/diploma options. ⋆See the text for the respective eligibility
+requirements.9
+Leave rules
+Students may be granted leave upon recommendation from the FA/DA and application
+through the concerned AU. Applications must be submitted well in advance of the date
+of commencement of the leave requested. Dean (Academic Programs) is the competent
+approving authority for all the leaves mentioned below.
+Students enrolled under CSIR, UGC, and other categories are governed by the rules
+of the bodies which provide ﬁnancial support. Leave rules of the parent organization are
+applicable for Part-time students.
+9.1 Personal Leave and Casual Leave
+Students funded by the Ministry of Education or Institute are entitled for leave for a maximum
+of 30 days per calendar year in addition to the Public Holidays. The leave will be treated as
+part of the student’s tenure. The leaves due can be carried over to the next year, however
+not more than 90 days can be accumulated at anytime during the entire tenure. During the
+first year of fellowship or for any uncompleted year,leave may be accounted on a pro-rata
+basis for the completed months. Leave account of the students enrolled shall be credited with
+leave in advance in two instalments on the ﬁrst day of January and July for every completed
+calendar year considering that the maximum number of leaves available is not more than 90
+days at any point of time.
+9.2 Maternity and Paternity leave
+Maternity and paternity leave would be available to female and male students as per
+Government of India instructions issued from time to time /one.sup.
+1Details are available in IIT Goa Statutes
+239.3. Medical Leave 24
+9.3 Medical Leave
+Leave on medical grounds,duly supported by a medical certiﬁcate(from the IITGoa medical
+section), may be granted to a student for up to 10 days per calendar year. Such leaves not
+availed will not be carried over to the next year.
+9.4 Academic Leave
+Academic leave would be available to students to attend seminars,conferences,workshops
+in India or abroad to present research work. The duration of academic leave includes the
+transit time,which is calculated on the basis of travel time from the institute to the place of
+the event. The academic leave may be given up to six weeks .
+9.5 Absence without sanctioned leave
+Student’s absence without sanctioned leave
+•will entail loss of the student’s financial assistantship for the period of absence, and
+•may result in the termination of the student’s program on the recommendation of the
+concerned AU and approval of SPGC.10
+Miscellaneous
+10.1 Change of status from Full-time to Part-time
+A Full-time Ph.D. student is not allowed to take any positions unless assigned/approved by
+the institute. However, a Full-Time Ph.D. student may be allowed to convert to Part-Time
+Ph.D. with the approval of the Senate.
+10.2 Guidelines for research work involving human
+participation
+Ph.D. students whose research work involves human participation(either directly or indirectly),
+should obtain the Institute Ethics Committee (IEC) approval prior to the start of the study or
+the component of the study involving human participation. IEC approval is mandatory for all
+such projects. In fact, this is mandated by several funding agencies such as DST,DBT,CSIR,
+and ICMR.IEC approval is also a prerequisite for publishing any such research work. IEC
+approval cannot be taken retrospectively.
+25I
+Requirements for students enrolled before AY 2020-2021
+The Ph.D. manual is applicable in spirit to all students enrolled for the Ph.D. program at IIT
+Goa. Meanwhile the rules are applicable to all the students enrolled for the Ph.D. program,
+certain amendments to the rules and regulations are recommended for the students enrolled
+for Ph.D. program during the academic year 2018-2019 and 2019-2020. The deviation from
+rules for such students are detailed below.
+Credit requirements from coursework (Section 3.1) The students enrolled in the academic year 2018-2019 and 2019-2020 shall have to meet the credit requirements as tabulated
+in Table I.1.
+Qualifying degreeMinimum
+credits through
+coursework †Minimum
+duration to
+graduate ⋆Maximum
+duration to
+graduate ⋆
+Group A
+B.Tech., B.E. or equivalent 4-year bachelor’s
+degree 44-56 3.5 years 7 years
+Group B
+M.Sc., M.A. or equivalent 5-year Mas-
+ter’s degree32-46 3 years 6 years
+Group C
+M.Tech., M.E., or M.Phil. or equivalent
+6-year Master’s degree 16-22 2.5 years 6 years
+Table I.1: Minimum credit requirements and expected duration for a student enrolled (before
+AY 2020-2021) in the Ph.D. program from various qualifying degree. ⋆from the date of
+joining. †A student is allowed to complete extra credit courses,if necessary,as recommended
+by the student’s DA (s), DC, or AU
+Crediting NPTEL or MOOC courses (Section 3.1.4) The grading system proposed in
+the manual shall be applicable for all courses the students shall enroll for after this manual
+comes into effect. The courses that have already been graded shall remain unchanged.
+26Requirements for students enrolled before AY 2020-2021 27
+Credit requirement through research (Section 3.2) There shall be no minimum credit
+requirement through research for students enrolled in the academic years 2018-2019 and
+2019-2020. From the academic year 2020-2021 all students irrespective of the year of
+enrollment shall register for 12 credits every semester and they shall be graded as detailed in
+Section 3.2. The waiver is only on the minimum research credits to be earned (i.e. 54 credits
+or 18 S). All other rules of doctoral research shall be applicable.
+Minimum CPI requirements(Section8.1) The students enrolled in academic years 2018-
+2019and 2019-2020 shall have to secure a minimum CPI of 6.0 out of 10 in order to fulfil
+the course work requirements for registration to the Ph.D. program.
+Academic probation(Section8.4) The students enrolled in the academic years 2018-2019
+shall be governed by the existent rules of probation during the years 2018-2020.
+Formation of doctoral committee(Chapter4) For the students enrolled in the academic
+years 2018-2019 and 2019-2020 the existing doctoral committee shall continue.
+Ph.D. comprehensive examination(Section5.1) If the students enrolled in the academic
+years 2018-2019 and 2019-2020 have had satisfactory performance during an APS or appeared
+for any equivalent examination conducted by the respective academic unit or doctoral
+committee,then that shall be considered as successful completion of Ph.D. comprehensive
+examination. If the student enrolled in these years,has not appeared for any such scrutiny,
+then they will have to appear for a Ph.D. comprehensive examination as per the existing rules
+of the academic unit.
+State of the Art Seminar (SOAS, Section 5.2) If the students enrolled in the academic
+year 2018-2019 have had satisfactory performance during an APS or appeared for any
+equivalent examination conducted by the respective academic unit or doctoral committee,
+then the SOAS is waived off for such students. AUs may take appropriate decision for the
+SOAS for students admitted in AY 2018-2019 and 2019-2020.
+All other rules and regulations described in the manual shall be applicable to all Ph.D.
+students of IIT Goa.
+Graduate seminar course The students may be allowed to take two such courses in the
+entire Ph.D. program.II
+Academic performance index
+The academic performance of a student in a semester is measured by Semester Performance
+Index (SPI). SPI is the weighted average of the ﬁnal grade points obtained in all the courses
+taken by the student during the semester. SPI is calculated to two decimal places.
+An example SPI calculation is as follows. Suppose in a given semester; a student has
+taken five courses having credits C1,C2,C3,C4,C5 and the student’s final grade points in
+those courses are G1,G2,G3,G4,G5 respectively. Then, the student’s SPI is
+SPI =C1G1+C2G2+C3G3+C4G4+C5G5
+C1+C2+C3+C4+C5(II.1)
+Cumulative Performance Index(CPI) CPI denotes the up-to-date academic performance
+of a student from the time the student enrolled in the Institute. CPI is the weighted average
+of the ﬁnal grade points obtained in all the courses taken by the student since the student
+entered the Institute. The CPI calculation is the same as the SPI calculation.
+28III
+Course credit calculation, grading, and types
+III.1 Credit calculation from contact hours
+Courses are classiﬁed mainly into theory, laboratory, self-learning, seminar, or research
+courses. Each course is associated with a ﬁxed number of credits commensurate with
+the quantum of work associated with that course. For example, theory courses consist of
+lecture(L)hours and tutorial(T)hours,and may have practical(P)hours in special cases.
+Laboratory courses consist of practical (P) hours, and attached tutorial (T) hours in special
+cases. Credit (C) hours for a course is computed as follows /one.sup
+•For a full semester Lab/Practical only course, i.e., one with zero lecture hours but
+possibly with tutorials, the credit is
+T+/ceilingleftbiggP
+2/ceilingrightbigg
+•Otherwise, i.e., when the course involves lectures, the credit is
+L+T+/floorleftbiggP
+2/floorrightbigg
+•Credit hours of a half-semester course is half of that of a full semester course with
+similar L-T-P parameters.
+Examples (also, see Table III.1 and Table III.2).
+•A3-0-0 full semester course with 3 lecture hours per week and no practicals or tutorials
+constitutes 3 credits. A half-semester course with similar parameters carries 1.5 credits.
+•A standard 3-0-3 full semester course with 3 lecture hours per week and 3 lab hours
+per week carries 4 credits. So does a standard 3-1-0 course with 3 lecture hours per
+week and 1 tutorial hour per week.
+•A practical course with parameters 0-0-3, i.e., 3 hours of practical hours per week,
+carries2credits. Similarly a 0-1-2 course with 1 tutorial hour and 2 lab hours per week
+carries 2 credits.
+1Adapted from U.G. Curricular Structure 2019, IIT Goa
+29III.2. Grading system 30
+Course Lecture (L) Tutorial (T) Practical (P) Credits Remarks
+XX801 4 0 0 4
+XX856 4 0 2 5
+XX541 2 1 0 3
+XX542 0 0 4 2
+XX543 0 1 2 2
+XX545 3 0 3 4 Floor
+XX611 0 0 3 2 Ceiling
+Table III.1: Hours per week for 12-14 week course
+Course Lecture (L) Tutorial (T) Practical (P) Credits Remarks
+XX801 4 0 0 2
+XX856 4 0 2 3 Floor
+XX541 2 1 0 2 Ceiling
+XX542 0 0 4 1
+XX543 0 1 2 2 Ceiling
+XX545 3 0 3 2 Floor
+XX611 0 0 3 1 Floor
+Table III.2: Hours per week for 6-8 week course
+Old system Credit ( C) hours for a course is computed based on the following formula /two.sup
+C= 2(L+T) +P
+Examples.
+•A theory course with two lectures (L= 2),one tutorial (T= 1),two practical (P= 2)
+hours per week throughout the semester has a credit of C= 8.
+•Similarly,a lab course with two tutorials (T= 2)and two laboratory (P= 2)hours
+per week throughout the semester carries a credit of C=6.
+III.2 Grading system
+For some courses(typically core courses and electives)the passing grades that can be assigned
+to students have an associated grade point. A grade point is an integer number from 0 to 10
+reﬂecting the level of performance of the student in the course. Letter grades associated with
+a grade point and their descriptions are listed in TableIII.3. SeeTableIII.4 for grades that
+are associated with no grade points.
+2Adapted from IIT Bombay. This scheme is included for completeness.III.3. Graduate seminar 31
+Letter Grade Grade Point Remarks Description
+A* 10 Exceptional Exceptional performance and mastery of the
+subject. The A* grade can only be given for
+core courses. This grade indicates an exceptional mastery over the subject when compared
+with students across multiple batches.
+A+ 10 Outstanding Outstanding mastery of the subject and applications.
+A 9 Excellent Excellent mastery of the subject and applications.
+B+ 8 Very good Very good mastery and scholarship in the subject.
+B 7 Good Good mastery and scholarship in the subject.
+C+ 6 Average Acceptable understanding and mastery of the subject.
+C 5 Below average Below-average understanding and proficiency
+in the subject. Grade C is the minimum grade
+required for the evaluation of the final CPI of
+graduate students (masters and Ph.D.). If a
+graduate student secures a grade less than C,
+the student shall replace/repeat the course in
+the subsequent semester in accordance with
+other rules to be adhered to by the student.
+D 4 Marginal Border-line understanding of the subject and
+marginal performance.
+E 2 Exposed Grade E is a failing grade. Grade E is awarded
+for the students who attended the lectures and
+learned the subject to some extent but could
+not demonstrate marginal performance. Grade
+E is an acceptable prerequisite for registering
+in another course, however, students must re-
+register and pass.
+F 0 Poor The F grade indicates extremely poor and unsatisfactory performance in a course.
+Table III.3: Letter grades with grade points
+III.3 Graduate seminar
+•Each graduate seminar consists of 2 credits.
+•A student shall not take more than ONE graduate seminar course in the entire Ph.D.
+program.III.4. Self-learning/reading courses 32
+III.4 Self-learning/reading courses
+•Any course approved by the Senate as elective courses/ core courses which are being
+oﬀered for graduate students may be oﬀered as a self-learning course/ reading course
+and will be treated as per the course document.
+•The courses meant to be oﬀered as self-learning courses must be approved by the
+Senate.III.4. Self-learning/reading courses 33
+Letter Grade Remarks Description
+P Pass This grade is solely for Pass/Fail courses and represents satisfactory performance. No grade points allocated,but credits acquired.
+F Poor The F grade indicates extremely poor and unsatisfactory performance in a Pass/Fail course.
+S Satisfactory Progress satisfactorily in a dissertation, research, or project-
+oriented course. No grade points allocated.
+U Unsatisfactory Progress unsatisfactorily in a dissertation, research, or project-
+oriented course. No grade points allocated.
+I Incomplete Grade I is awarded in a lecture/lab course if a student has
+satisfactory performance, but has
+•not appeared for the end-semester examination on medical
+grounds, or
+•performed poorly/did not appear in the end-semester
+examination due to unavoidable circumstances.
+The student has to appear in the end semester examination when
+the course is oﬀered next or when the exam is offered next;
+otherwise, this grade will be converted to grade F. Grade I will
+then be converted into a performance grade depending on the
+overall performance in the course.
+W Withdrawn The course is withdrawn after the initial course adjustment
+period and before the course drop deadline speciﬁed in the
+academic calendar. This grade appears in a student’s transcript.
+L Audit Students registered for a course as audit shall be awarded grade
+L if they fulfill the requirement of duly satisfactory performance
+as prescribed by the Instructor. If a student does not qualify
+for the grade L, it will be assumed that the course has been
+dropped by that student and will not appear in the transcript.
+FXFailed due to
+low
+attendanceGrade FX in a course is awarded if a student does not maintain
+the attendance requirement in the lectures/tutorials. This grade
+may also be awarded to the students having bad or incomplete
+in-semester records on non-medical reasons. FX grade is
+typically declared in the first week of November for the Autumn
+semester courses and in the ﬁrst week of April for Spring
+semester courses(The academic office decides otherwise). A
+student with FX grade in a given course is not permitted to take
+the end semester examination in that course. Such a student
+gets one more chance to register the same course to improve
+grades. Grade FX does not count in SPI / CPI calculations.
+However, it will be counted as a backlog. This is an internal
+grade and never shown in the transcripts.
+Table III.4: Letter grades with no grade pointsIV
+Credit calculation and grading for NPTEL/MOOC courses
+We follow a uniform credit calculation and grade assignment for NPTEL/MOOC courses /one.sup
+(Table IV.1)
+Contact hours per semester Number of credits
+40-44 3
+28-32 2
+12-16 1
+Table IV.1: NPTEL/MOOC credit calculation
+For every additional 8 hours per course above the higher limit in each row, 1 credit may
+be added. For example, see Table IV.2.
+Actual work hours per semester
+as mentioned in the certiﬁcate/
+course brochureCredits to be allotted
+24 (16 + 8) 2
+20 (16 + 4) 1
+Table IV.2: NPTEL/MOOC credit calculation for additional hours
+Note: No ﬂooring or ceiling will be applied compared to regular courses oﬀered by IIT
+Goa
+Grade allotment to NPTEL/MOOC courses A student opting for NPTEL/ MOOC
+courses will have to secure a minimum of 65% for fulfilling credit requirements and grade
+allocation
+The next higher grade may be allotted subject to the following conditions.
+•The candidate may request for a written examination, which may be conducted by
+the AU. Such requests should be recommended by the AU to the Dean (Academic
+Programs) for consideration.
+1This follows the new credit system, which can be easily extended based on Annexure III
+34Credit calculation and grading for NPTEL/MOOC courses 35
+Score (%) as printed on grade
+card issued by respective authority Grades
+65-70 D (4)
+70-75 C (5)
+75-80 C+ (6)
+80-85 B (7)
+85-90 B+ (8)
+90-95 A (9)
+95-100 A+ (10)
+Table IV.3: Grade allotment to NPTEL/MOOC courses
+•The examination will be conducted by respective AU on recommendation from SPGC
+•The absolute score in the exam should be at least the score obtained by the student in
+the exam conducted by NPTEL/MOOC etc.
+•The highest grade that can be obtained will be one higher than the grade obtained by
+the candidate as calculated from NPTEL/MOOC exam (see, e.g., Table IV.4).
+Score obtained in
+NPTEL/MOOCGrade allottedScore obtained in the
+exam conducted New grade to
+be allotted
+64% F NA NA
+73% C 73% C+
+81% B 99% B+
+Table IV.4: Improving allotted grade to NPTEL/MOOC coursesGlossary
+APSAnnual Progress Seminar. 8, 9, 13, 27
+AUThe Academic Unit such as a program, a department, a school, or a center where the
+Ph.D. student is enrolled. 1, 3–5, 7, 10, 12–14, 19, 26, 27, 34
+AYAcademic Year, e.g. AY 2020-2021. 7, 26
+CPI Cumulative Performance Index. 6, 8, 12, 19, 20, 28
+CSIRCouncil of Scientiﬁc and Industrial Research. 23
+DA The doctoral advisor or supervisor of a student enrolled in a Ph.D. program. Doctoral
+Advisor and Supervisor are used interchangeably. 4–10, 15–17, 23, 26
+DC The Doctoral Committee of a Ph.D. student. 1, 5, 8–10, 12–18, 20, 21, 26
+DPGC The Department Postgraduate Committee. 14–17, 21
+FA The Faculty Adviser of a student. 4–7, 20, 23
+IIT Indian Institute of Technology. ii
+SOAS State Of the Art Seminar. 12, 13, 27
+SPGC The Senate Postgraduate Committee. i, iii, 1, 6–10, 14–22, 24, 35
+SPI Semester Performance Index. 8, 28
+TA Teaching Assistantship. 2, 21
+UGC The University Grants Commission. 23
+36

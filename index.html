@@ -96,8 +96,8 @@
             xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     var response = xhr.responseText;
-                    var botResponse = response.response;
-                    appendMessage(botResponse);
+                    /*var botResponse = response.response;*/
+                    appendMessage(response);
                 }
             };
 

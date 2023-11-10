@@ -146,8 +146,11 @@ async def main(message):
         stream_final_answer=True, answer_prefix_tokens=["FINAL", "ANSWER"]
     )
     cb.answer_reached = True
-    res = await chain.acall(message, callbacks=[cb])
-    answer = res["result"]
+    if is_relavant(message):
+      res = await chain.acall(message, callbacks=[cb])
+      answer = res["result"]
+    else:
+      answer = "I don't know"
     # sources = res["source_documents"]
     #
     # if sources:

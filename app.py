@@ -151,7 +151,12 @@ async def main(message):
       res = await chain.acall(message, callbacks=[cb])
       answer = res["result"]
     else:
-      answer = "**I don't know**"
+      answer = """| Qualifying Degree      | Minimum Credits Through Coursework | Minimum Credits Through Research | Minimum Credits for Graduation | Minimum Duration to Graduate | Maximum Duration to Graduate |
+|------------------------|-----------------------------------|----------------------------------|-------------------------------|-----------------------------|-------------------------------|
+| Group A                | B.Tech., B.E. or equivalent 4-year bachelor's degree | 24 | 54 | 78 | 3.5 years | 7 years |
+| Group B                | M.Sc., M.A. or equivalent | 18 | 54 | 72 | 3 years | 6 years |
+| Group C                | M.Tech., M.E., or M.Phil. or equivalent | 9 | 54 | 63 | 2.5 years | 6 years |
+"""
     # sources = res["source_documents"]
     #
     # if sources:

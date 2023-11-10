@@ -146,7 +146,8 @@ async def main(message):
         stream_final_answer=True, answer_prefix_tokens=["FINAL", "ANSWER"]
     )
     cb.answer_reached = True
-    if is_relavant(message):
+    aa_emb = embeddings.embed_query(message)
+    if is_relavant(aa_emb):
       res = await chain.acall(message, callbacks=[cb])
       answer = res["result"]
     else:

@@ -151,7 +151,7 @@ async def main(message):
       res = await chain.acall(message, callbacks=[cb])
       answer = res["result"]
     else:
-      answer = "I don't know"
+      answer = "**I don't know**"
     # sources = res["source_documents"]
     #
     # if sources:

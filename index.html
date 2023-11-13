@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Chat Interface</title>
-    <style>
+<style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
@@ -13,6 +13,7 @@
             align-items: center;
             justify-content: center;
             min-height: 100vh;
+            font-size: 18px;
         }
         .chat-container {
             width: 80%; /* Adjust the width as needed */
@@ -48,7 +49,7 @@
             padding: 10px;
             position: fixed;
             bottom: 0;
-            width: 80%;
+            width: 79%;
             background-color: #fff; /* Set the background color for the input area */
             margin-bottom: 1%;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -59,6 +60,7 @@
             padding: 10px;
             border: none;
             outline: none;
+            font-size: 18px;
         }
         .send-button {
             background-color: #0084FF;
@@ -71,11 +73,11 @@
     </style>
 </head>
 <body>
-    <div class="chat-header"><h1>Header</h1></div>
+    <div class="chat-header"><h1>Academic ChatBot</h1></div>
     <div class="chat-container">
         <!-- <div class="chat-header">ChatGPT</div> -->
         <div class="chat-log" id="chat-log">
-            <p>ChatGPT: Hello! How can I assist you today?</p>
+            <p>Bot: Hello! How can I assist you today?</p>
         </div>
     </div>
     <div class="user-input-container">
@@ -84,6 +86,18 @@
     </div>
 
     <script>
+
+        document.getElementById("user-input").addEventListener("keydown", function(event) {
+            // Check if the pressed key is Enter (key code 13)
+            if (event.keyCode === 13) {
+                // Prevent the default action of the Enter key (form submission)
+                event.preventDefault();
+        
+                // Call the sendMessage function when Enter is pressed
+                sendMessage();
+            }
+        });
+        
         function sendMessage() {
             var userMessage = document.getElementById("user-input").value;
             appendMessage("You: " + userMessage);

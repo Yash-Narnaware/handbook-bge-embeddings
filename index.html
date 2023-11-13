@@ -124,7 +124,8 @@
         function appendMessage(message) {
             var chatLog = document.getElementById("chat-log");
             var newMessage = document.createElement("p");
-            newMessage.textContent = message;
+            message = message.replace(/\n/g, '<br>');
+            newMessage.innerHTML = message;
             chatLog.appendChild(newMessage);
         }
     </script>

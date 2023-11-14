@@ -127,6 +127,7 @@
             message = message.replace(/\n/g, '<br>');
             newMessage.innerHTML = message;
             chatLog.appendChild(newMessage);
+            chatLog.scrollTop = chatLog.scrollHeight;
         }
     </script>
 </body>

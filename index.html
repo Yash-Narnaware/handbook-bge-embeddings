@@ -70,6 +70,10 @@
             cursor: pointer;
             border-radius: 5px;
         }
+
+        .disabled {
+            opacity: 0.5; /* Adjust the opacity as needed */
+            cursor: not-allowed;
     </style>
 </head>
 <body>
@@ -82,25 +86,33 @@
     </div>
     <div class="user-input-container">
         <input type="text" class="user-input" id="user-input" placeholder="Type your message..." />
-        <button class="send-button" onclick="sendMessage()">Send</button>
+        <button class="send-button" id="send-button" onclick="sendMessage()">Send</button>
     </div>
 
     <script>
-
-        document.getElementById("user-input").addEventListener("keydown", function(event) {
+        document.getElementById("user-input").addEventListener("keydown", function (event) {
             // Check if the pressed key is Enter (key code 13)
             if (event.keyCode === 13) {
                 // Prevent the default action of the Enter key (form submission)
                 event.preventDefault();
-        
+
                 // Call the sendMessage function when Enter is pressed
                 sendMessage();
             }
         });
-        
+
         function sendMessage() {
+            // Check if the send button is disabled
+            if (document.getElementById("send-button").disabled) {
+                return;
+            }
+
             var userMessage = document.getElementById("user-input").value;
             appendMessage("You: " + userMessage);
+
+            // Disable the send button
+            document.getElementById("send-button").classList.add("disabled");
+            document.getElementById("send-button").disabled = true;
 
             // Send the user's message to the Flask server
             var xhr = new XMLHttpRequest();
@@ -108,14 +120,32 @@
             xhr.setRequestHeader("Content-Type", "application/json");
 
             xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    var response = JSON.parse(xhr.responseText);
-                    var botResponse = response.response;
-                    appendMessage(botResponse);
+                if (xhr.readyState === 4) {
+                    // Check if the response has not been processed already
+                    if (xhr.__processed) {
+                        return;
+                    }
+
+                    // Mark the response as processed
+                    xhr.__processed = true;
+
+                    // Enable the send button
+                    document.getElementById("send-button").classList.remove("disabled");
+                    document.getElementById("send-button").disabled = false;
+
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        var botResponse = response.response;
+                        appendMessage(botResponse);
+                    } else {
+                        appendMessage("Error: Unable to process the message");
+                    }
                 }
             };
 
-            var requestData = JSON.stringify({ message: userMessage });
+            var requestData = JSON.stringify({
+                message: userMessage
+            });
             xhr.send(requestData);
 
             document.getElementById("user-input").value = "";

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chat Interface</title>
+    <title>AcadBot</title>
 <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,10 +17,11 @@
         }
         .chat-container {
             width: 80%; /* Adjust the width as needed */
-            background-color: #ffffff;
-            border: 1px solid #ccc;
+            /* background-color: #ffffff; */
+            background-color: rgba(255, 255, 255, 0);
+            /* border: 1px solid #ccc; */
             border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
             display: flex;
             /* flex-direction: column; */
             position: fixed;
@@ -28,6 +29,7 @@
             height: 60%;  /*Adjust the height as needed */
         }
         .chat-header {
+            /* display: flex; */
             width: 100%;
             text-align: center;
             background-color: #0084FF;
@@ -48,11 +50,12 @@
             align-items: center;
             padding: 10px;
             position: fixed;
-            bottom: 0;
+            bottom: 4%;
             width: 79%;
-            background-color: #fff; /* Set the background color for the input area */
+            background-color: #fff;
             margin-bottom: 1%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* background-color: rgba(255, 255, 255, 0); */
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
             border-radius: 5px;border-radius: 5px;
         }
         .user-input {
@@ -70,23 +73,57 @@
             cursor: pointer;
             border-radius: 5px;
         }
+        .footer {
+            width: 100%;
+            /* background-color: #333; */
+            background-color: rgba(255, 255, 255, 0);
+            color: rgba(1, 1, 1, 0.615);
+            text-align: center;
+            padding: 2px;
+            position: fixed;
+            bottom: 0;
+            font-size: 16px;
+        }
+
+        .logo {
+            margin-right: 10px;
+            width: 100px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
 
         .disabled {
             opacity: 0.5; /* Adjust the opacity as needed */
             cursor: not-allowed;
+        }
+        
     </style>
 </head>
 <body>
-    <div class="chat-header"><h1>Academic ChatBot</h1></div>
+    <div class="chat-header">
+        <!-- <div>
+            <img class="logo" src="../iit.png" alt="Logo">
+        </div> -->
+    
+            <h1>AcadBot<span style="font-size: small;"> (Beta)</span></h3></h1>
+  
+    </div>
     <div class="chat-container">
         <!-- <div class="chat-header">ChatGPT</div> -->
         <div class="chat-log" id="chat-log">
-            <p>Bot: Hello! How can I assist you today?</p>
+            <p>AcadBot: Hello! How can I assist you today?</p>
         </div>
     </div>
     <div class="user-input-container">
         <input type="text" class="user-input" id="user-input" placeholder="Type your message..." />
         <button class="send-button" id="send-button" onclick="sendMessage()">Send</button>
+    </div>
+
+    <!-- <div class="footer">
+        <p>&copy; 2023 AcadBot. All rights reserved.</p>
+    </div> -->
+
+    <div class="footer">
+        <span>&copy; 2023 AcadBot. All rights reserved.Only for testing purposes</span>
     </div>
 
     <script>

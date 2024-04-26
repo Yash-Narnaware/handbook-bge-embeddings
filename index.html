@@ -138,7 +138,7 @@
             }
         });
 
-
+        var user_message = "hello"
         function sendMessage() {
             // Check if the send button is disabled
             if (document.getElementById("send-button").disabled) {
@@ -146,6 +146,8 @@
             }
 
             var userMessage = document.getElementById("user-input").value;
+
+            user_message = userMessage
             appendMessage("You: " + userMessage, false);
 
             // Disable the send button
@@ -243,7 +245,7 @@
             // Optionally, you can disable the feedback buttons after the user provides feedback
             disableFeedbackButtons();
 
-            var userMessage = document.getElementById("user-input").value;
+            // var userMessage = document.getElementById("user-input").value;
             
             var xhrFeedback = new XMLHttpRequest();
             xhrFeedback.open("POST", "/send_feedback", true);
@@ -260,7 +262,7 @@
             var feedbackData = JSON.stringify({
                 feedback: feedback,
                 response: response,
-                user_input: userMessage
+                user_input: user_message
             });
 
             xhrFeedback.send(feedbackData);

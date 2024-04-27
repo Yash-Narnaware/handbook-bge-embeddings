@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question-label {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .question {
+            margin-bottom: 10px;
+        }
+        .response-label {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .response {
+            margin-bottom: 10px;
+        }
+        .user-response {
+            width: 100%;
+            height: 100px;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="feedback-container">
+        {% if empty %}
+            <h1>CSV file is empty</h1>
+        {% else %}
+            {% for row in data %}
+                <div class="feedback-row">
+                    <div class="question-label">Query:</div>
+                    <div class="question">{{ row['question'] }}</div>
+                    <div class="response-label">Bot Response:</div>
+                    <div class="response">{{ row['response'] }}</div>
+                    <textarea class="user-response" id="abc" rows="4" cols="50" placeholder="Provide your response here..."></textarea>
+                    <button class="btn" onclick="nextFeedback()">Next</button>
+                    <button class="btn" onclick="addtodatabase({{ loop.index0 }})">Add to database</button>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    <script>
+        var feedbackRows = document.querySelectorAll('.feedback-row');
+        var currentIndex = 0;
+
+        function showFeedback(index) {
+            feedbackRows.forEach(function(row, i) {
+                if (i === index) {
+                    row.style.display = 'block';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        function nextFeedback() {
+            if (currentIndex < feedbackRows.length - 1) {
+                currentIndex++;
+                // document.querySelector('.user-response').value = ""
+                showFeedback(currentIndex);
+            }
+        }
+
+        function addtodatabase(index) {
+            // Get the user response from the textarea in the current feedback row
+            var userResponse = document.querySelectorAll('.user-response')[index].value;
+
+            console.log(userResponse);
+
+            // Create a new XMLHttpRequest object
+            var xhr = new XMLHttpRequest();
+
+            // Define the request method and URL
+            xhr.open('POST', '/add-to-database', true);
+
+            // Set the Content-Type header
+            xhr.setRequestHeader('Content-Type', 'application/json');
+
+            // Define the callback function for when the request completes
+            xhr.onload = function () {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    console.log('Response added to database successfully');
+                    
+                    // You can perform any additional actions here after the response is added to the database
+                } else {
+                    console.error('Error adding response to database');
+                }
+            };
+
+            // Convert the data object to JSON string
+            var data = JSON.stringify({ response: userResponse });
+
+            // Send the request with the JSON data
+            xhr.send(data);
+
+            // Clear the textarea after sending the response
+            document.querySelectorAll('.user-response')[index].value = "";
+        }
+
+
+        showFeedback(currentIndex);
+    </script>
+</body>
+</html>

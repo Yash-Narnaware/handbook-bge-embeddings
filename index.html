@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AcadBot</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-size: 18px;
+        }
+        .chat-container {
+            width: 80%; /* Adjust the width as needed */
+            /* background-color: #ffffff; */
+            background-color: rgba(255, 255, 255, 0);
+            /* border: 1px solid #ccc; */
+            border-radius: 5px;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+            display: flex;
+            /* flex-direction: column; */
+            position: fixed;
+            /* top: 110; */
+            height: 60%;  /*Adjust the height as needed */
+        }
+        .chat-header {
+            /* display: flex; */
+            width: 100%;
+            text-align: center;
+            background-color: #0084FF;
+            color: #fff;
+            padding: 10px;
+            font-weight: bold;
+            position:fixed;
+            top: 0;
+        }
+        .chat-log {
+            flex: 1;
+            /*max-height: calc(100% - 120px);  Adjust this value as needed */
+            overflow-y: auto;
+            padding: 10px;
+        }
+        .user-input-container {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 4%;
+            width: 79%;
+            background-color: #fff;
+            margin-bottom: 1%;
+            /* background-color: rgba(255, 255, 255, 0); */
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+            border-radius: 5px;border-radius: 5px;
+        }
+        .user-input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+        }
+        .send-button {
+            background-color: #0084FF;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .footer {
+            width: 100%;
+            /* background-color: #333; */
+            background-color: rgba(255, 255, 255, 0);
+            color: rgba(1, 1, 1, 0.615);
+            text-align: center;
+            padding: 2px;
+            position: fixed;
+            bottom: 0;
+            font-size: 16px;
+        }
+
+        .logo {
+            margin-right: 10px;
+            width: 100px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .disabled {
+            opacity: 0.5; /* Adjust the opacity as needed */
+            cursor: not-allowed;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="chat-header">
+        <!-- <div>
+            <img class="logo" src="../iit.png" alt="Logo">
+        </div> -->
+    
+            <h1>AcadBot<span style="font-size: small;"> (Beta)</span></h3></h1>
+  
+    </div>
+    <div class="chat-container">
+        <!-- <div class="chat-header">ChatGPT</div> -->
+        <div class="chat-log" id="chat-log">
+            <p>AcadBot: Hello! How can I assist you today?</p>
+        </div>
+    </div>
+    <div class="user-input-container">
+        <input type="text" class="user-input" id="user-input" placeholder="Type your message..." />
+        <button class="send-button" id="send-button" onclick="sendMessage()">Send</button>
+    </div>
+
+    <!-- <div class="footer">
+        <p>&copy; 2023 AcadBot. All rights reserved.</p>
+    </div> -->
+
+    <div class="footer">
+        <span>&copy; 2023 AcadBot. All rights reserved.Only for testing purposes</span>
+    </div>
+
+    <script>
+        document.getElementById("user-input").addEventListener("keydown", function (event) {
+            // Check if the pressed key is Enter (key code 13)
+            if (event.keyCode === 13) {
+                // Prevent the default action of the Enter key (form submission)
+                event.preventDefault();
+
+                // Call the sendMessage function when Enter is pressed
+                sendMessage();
+            }
+        });
+
+        var user_message = "hello"
+        function sendMessage() {
+            // Check if the send button is disabled
+            if (document.getElementById("send-button").disabled) {
+                return;
+            }
+
+            var userMessage = document.getElementById("user-input").value;
+
+            user_message = userMessage
+            appendMessage("You: " + userMessage, false);
+
+            // Disable the send button
+            document.getElementById("send-button").classList.add("disabled");
+            document.getElementById("send-button").disabled = true;
+
+            disableFeedbackButtons();
+
+            // Send the user's message to the Flask server
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/process_message", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    // Check if the response has not been processed already
+                    if (xhr.__processed) {
+                        return;
+                    }
+
+                    // Mark the response as processed
+                    xhr.__processed = true;
+
+                    // Enable the send button
+                    document.getElementById("send-button").classList.remove("disabled");
+                    document.getElementById("send-button").disabled = false;
+
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        var botResponse = response.response;
+                        appendMessage(botResponse, true);
+                    } else {
+                        appendMessage("Error: Unable to process the message", true);
+                    }
+                }
+            };
+
+            var requestData = JSON.stringify({
+                message: userMessage
+            });
+            xhr.send(requestData);
+
+            document.getElementById("user-input").value = "";
+        }
+
+        // function appendMessage(message) {
+        //     var chatLog = document.getElementById("chat-log");
+        //     var newMessage = document.createElement("p");
+        //     message = message.replace(/\n/g, '<br>');
+        //     newMessage.innerHTML = message;
+        //     chatLog.appendChild(newMessage);
+        //     chatLog.scrollTop = chatLog.scrollHeight;
+        // }
+        function appendMessage(message, isBot) {
+            var chatLog = document.getElementById("chat-log");
+            var newMessage = document.createElement("div");
+            newMessage.className = "message-container";
+
+            // Display the bot's message
+            var botMessage = document.createElement("p");
+            botMessage.innerHTML = message;
+            newMessage.appendChild(botMessage);
+
+            // Add a feedback option
+
+            if (isBot) {
+                var feedbackButtons = document.createElement("div");
+                feedbackButtons.className = "feedback-buttons";
+
+                var likeButton = document.createElement("button");
+                likeButton.innerHTML = "👍 Like";
+                likeButton.addEventListener("click", function () {
+                    provideFeedback("like",message);
+                });
+                feedbackButtons.appendChild(likeButton);
+
+                var dislikeButton = document.createElement("button");
+                dislikeButton.innerHTML = "👎 Dislike";
+                dislikeButton.addEventListener("click", function () {
+                    provideFeedback("dislike",message);
+                });
+                feedbackButtons.appendChild(dislikeButton);
+
+                newMessage.appendChild(feedbackButtons);
+
+            }
+
+            chatLog.appendChild(newMessage);
+            chatLog.scrollTop = chatLog.scrollHeight;
+        }
+
+        function provideFeedback(feedback,response) {
+            // You can send the feedback to the server or perform any other action here
+            console.log("User feedback: " + feedback);
+            // Optionally, you can disable the feedback buttons after the user provides feedback
+            disableFeedbackButtons();
+
+            // var userMessage = document.getElementById("user-input").value;
+            
+            var xhrFeedback = new XMLHttpRequest();
+            xhrFeedback.open("POST", "/send_feedback", true);
+            xhrFeedback.setRequestHeader("Content-Type", "application/json");
+
+            xhrFeedback.onreadystatechange = function () {
+                if (xhrFeedback.readyState === 4 && xhrFeedback.status === 200) {
+                    console.log("Feedback sent successfully");
+                } else {
+                    console.error("Error sending feedback");
+                }
+            };
+
+            var feedbackData = JSON.stringify({
+                feedback: feedback,
+                response: response,
+                user_input: user_message
+            });
+
+            xhrFeedback.send(feedbackData);
+
+        }
+
+        function disableFeedbackButtons() {
+            var feedbackButtons = document.querySelectorAll(".feedback-buttons button");
+            feedbackButtons.forEach(function (button) {
+                button.disabled = true;
+            });
+}
+    </script>
+</body>
+</html>

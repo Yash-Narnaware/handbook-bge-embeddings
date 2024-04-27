@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+</head>
+<body>
+    <h2>Upload Multiple PDF or Text Files</h2>
+    <form action="/upload_data" method="post" enctype="multipart/form-data" id="uploadForm">
+        <input type="file" name="files[]" accept=".pdf, .txt" multiple id="fileInput">
+        <br>
+        <input type="submit" value="Upload" onclick="uploadFiles()">
+    </form>
+
+    <h3>Uploaded Files:</h3>
+    <ul id="fileList">
+        {% for file_name in uploaded_files %}
+            <li>{{ file_name }}</li>
+            <button onclick="removeFile('{{ file_name }}')">Remove</button>
+        {% endfor %}
+    </ul>
+
+    <button onclick="updateDataset()" id="updateDatasetBtn">Update Dataset</button>
+
+    <script>
+        function uploadFiles() {
+
+            event.preventDefault(); // Prevent default form submission
+
+            var form = document.getElementById('uploadForm');
+            var formData = new FormData(form);
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/upload_data', true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    // Upload successful, handle response here if needed
+
+                    // Re-enable the submit button
+                    document.querySelector('input[type="submit"]').removeAttribute('disabled');
+                    // return
+
+                    // Reset the file input field
+                    document.getElementById('fileInput').value = '';
+
+                    // Re-enable the file input
+                    document.getElementById('fileInput').removeAttribute('disabled');
+
+                    document.getElementById('updateDatasetBtn').disabled = false;
+       
+                } else {
+                    // Error handling
+                    console.error('Error uploading files: ' + xhr.statusText);
+                }
+            };
+            xhr.onerror = function () {
+                // Error handling
+                console.error('Network error occurred while trying to upload files');
+            };
+            xhr.send(formData);
+            // Disable the submit button to prevent multiple submissions
+            document.querySelector('input[type="submit"]').setAttribute('disabled', 'true');
+            document.getElementById('fileInput').setAttribute('disabled', 'true');
+            document.getElementById('updateDatasetBtn').disabled = true;
+            xhr.send(formData);
+        }
+
+        // Refresh the list of uploaded files only when on the /upload page
+        function refreshFileList() {
+            if (window.location.pathname === '/upload') {
+                fetch('/upload')
+                    .then(response => response.text())
+                    .then(html => {
+                        const parser = new DOMParser();
+                        const newDocument = parser.parseFromString(html, 'text/html');
+                        const fileList = newDocument.getElementById('fileList');
+                        document.getElementById('fileList').innerHTML = fileList.innerHTML;
+                    });
+            }
+        }
+
+        // Refresh the list of uploaded files every 5 seconds
+        setInterval(refreshFileList, 5000); // Adjust the interval as needed (in milliseconds)
+
+        function removeFile(fileName) {
+            if (confirm('Are you sure you want to remove this file?')) {
+                fetch('/remove_file', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ file_name: fileName })
+                })
+                .then(response => {
+                    if (response.ok) {
+                        // Remove the file from the list
+                        document.getElementById('fileList').removeChild(document.querySelector(`li:contains('${fileName}')`));
+                    } else {
+                        // Handle error
+                        console.error('Failed to remove file:', response.statusText);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error removing file:', error);
+                });
+            }
+        }
+
+        function updateDataset() {
+
+            // Disable the button before making the request
+            document.getElementById('updateDatasetBtn').disabled = true;
+            document.querySelector('input[type="submit"]').setAttribute('disabled', 'true');
+            document.getElementById('fileInput').setAttribute('disabled', 'true');
+
+            fetch('/update_dataset')
+                .then(response => {
+                    // Re-enable the button after the request completes
+                    document.getElementById('updateDatasetBtn').disabled = false;
+                    document.querySelector('input[type="submit"]').removeAttribute('disabled');
+                    document.getElementById('fileInput').removeAttribute('disabled');
+                    if (response.ok) {
+                        alert('Dataset updated successfully');
+                    } else {
+                        console.error('Failed to update dataset:', response.statusText);
+                        alert('Failed to update dataset');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error updating dataset:', error);
+                    alert('Error updating dataset');
+                    // Re-enable the button in case of error
+                    document.getElementById('updateDatasetBtn').disabled = false;
+                    document.querySelector('input[type="submit"]').removeAttribute('disabled');
+                    document.getElementById('fileInput').removeAttribute('disabled');
+                });
+        }
+
+ 
+    </script>
+</body>
+</html>
+
